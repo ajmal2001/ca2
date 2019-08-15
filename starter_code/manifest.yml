@@ -1,0 +1,11 @@
+applications:
+  - path: .
+    name: sp-p1828555-ca2-001
+    environment_json: {}
+    memory: 256M
+    instances: 1
+    disk_quota: 1024M
+    services:
+      - availability-monitoring-auto
+      - sp-p1828555-ca2-001-iotf-service
+      - sp-p1828555-ca2-001-cloudantNoSQLDB
